@@ -56,7 +56,7 @@ background-repeat: no-repeat;
 }
 .banner h1 {
     text-align: center;
-    color: #fff;
+    color:white;
     font-size: 70px;
     margin: 0 0 1em;
     font-weight: bolder;
@@ -524,4 +524,28 @@ a.mail:hover {
   width:34px;
   height:36px;
   display:block;
+}
+@media(max-width:425px){
+	.container {
+		/* padding-right: 15px; */
+		/* padding-left: 15px; */
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#about{
+		/* padding: 5em 0; */
+		background-color: white;
+	}
+	.banner {
+		background-image: url(https://bit.ly/2psXQ2N);
+		background-repeat: no-repeat;
+		/* width: 100%; */
+		display: block;
+		height: 730px;
+		background-size: cover;
+	}
+	.wthree {
+		/* padding: 5em 0; */
+		background-color: #f4f4f4;
+	}
 }
