@@ -529,8 +529,8 @@ a.mail:hover {
 	.container {
 		/* padding-right: 15px; */
 		/* padding-left: 15px; */
-		margin-right: auto;
-		margin-left: auto;
+		margin-right:0;
+		margin-left:0;
 	}
 	#about{
 		/* padding: 5em 0; */
@@ -558,4 +558,14 @@ a.mail:hover {
 		/* padding-right: 15px; */
 		/* padding-left: 15px; */
 	}
+	.col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+		position: relative;
+		min-height: 2px;
+		/* padding-right: 15px; */
+		/* padding-left: 15px; */
+	}
+	
+	
+	
+
 }
